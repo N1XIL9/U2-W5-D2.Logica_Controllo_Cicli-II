@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#container-bud {
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid black;
+    height: 35vh;
+}
+
+#initialBudget {
+    border-bottom: 3px solid black;
+    margin-top: 20px;
+    height: 5vh;
+}
+
+#haldBudget {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+#container h2 {
+    text-transform: uppercase;
+}
+
+button {
+    font-size: 1.1rem;
+    padding: 20px;
+    margin: 5px;
+}
