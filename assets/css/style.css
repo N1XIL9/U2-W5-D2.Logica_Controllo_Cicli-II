@@ -1,5 +1,8 @@
 body {
+    background-image: url('/assets/img/operating-budget-28985827.jpg');
+    background-repeat: no-repeat;
     font-family: sans-serif;
+    background-size: cover;
     margin-left: 30%;
     margin-right: 30%;
 }
@@ -8,29 +11,41 @@ body {
     margin: 0 auto;
     text-align: center;
     border: 3px solid black;
-    height: 35vh;
+    height: 50vh;
+    background-color: blanchedalmond;
+    box-shadow: 2px 1px 9px 1px rgb(103, 103, 103);
+    border-radius: 20px;
+    margin-top: 30%;
+
 }
 
 #initialBudget {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(113, 113, 113);
     margin-top: 20px;
+    padding-bottom: 15px;
     height: 5vh;
+    font-size: 2rem;
 }
 
-#haldBudget {
+#halfBudget {
     font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 #container h2 {
     text-transform: uppercase;
+    color: rgb(15, 15, 15);
 }
 
 button {
+    background-color: rgb(135, 66, 73);
     font-size: 1.1rem;
     padding: 20px;
     margin: 5px;
+    color: white;
 }
